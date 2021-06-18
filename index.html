@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto Sol e Lua</title>
+	
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/jquery-ui.css" rel="stylesheet">
+	
+	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+</head>
+<body >
+	
+	<div class="modal">
+		<div class="modal_content">
+			<img src="imagens/OutrasOfertas/carro01.jpg" id="modal_img">
+		</div>
+		<span id="btn_close">&times;</span>
+	</div>
+	
+
+		<div  class="container">
+			<div class="row">
+				<div id="draggable" class="card_img">
+					<img src="imagens/OutrasOfertas/carro01.jpg" class="small_img">
+				</div>
+				<div id="draggable" class="card_img">
+					<img src="imagens/OutrasOfertas/carro02.jpeg" class="small_img">
+				</div>
+				<div id="draggable" class="card_img">
+					<img src="imagens/OutrasOfertas/carro03.jpg" class="small_img">
+				</div>
+				
+			</div> <!-- row -->
+			<div class="row">
+				<div id="draggable" class="card_img">
+					<img src="imagens/OutrasOfertas/carro04.jpg" class="small_img">
+				</div>
+				<div id="draggable" class="card_img">
+					<img src="imagens/OutrasOfertas/carro05.jpg" class="small_img">
+				</div>
+				<div id="draggable" class="card_img">
+					<img src="imagens/OutrasOfertas/carro06.jpg" class="small_img">
+				</div>
+				
+			</div> <!-- row -->
+		</div> <!-- container -->
+	
+
+
+
+<script src="js/functionGaleria.js"></script>
+<script src=" https://code.jquery.com/jquery-3.6.0.min.js
+"></script>
+<script src="js/jquery-ui.js"></script>
+<script>
+ $( function() {
+    $( ".row > #draggable" ).draggable();
+  } );
+</script>
+
+</body>
+</html>
